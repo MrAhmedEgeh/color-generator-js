@@ -19,17 +19,3 @@ body {
 span {
   display: block;
 }
-
-@media only screen and (max-width: 500px) {
-  .container {
-    max-width: 100px;
-    padding: 0px;
-  }
-  .container > span {
-    max-height: 50px;
-  }
-  span {
-    display: block;
-    flex-shrink: 0;
-  }
-}
